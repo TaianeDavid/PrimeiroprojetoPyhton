@@ -1,15 +1,9 @@
 nome=input('Qual o seu nome?')
 print('Olá', nome, '!','Prazer em te conhecer!') 
 pergunta=input('Vamos descobrir sua cor preferia? Sim ou não?')
-#if pergunta == sim:
 pergunta =int(input('Digite um número de 1 à 10    '))
-#if  pergunta ==não:   
- #   print ('Volte outra hora!')
-    
-#pergunta =int(input('Digite um número de 1 à 10    '))
-#teste =  pergunta
 if pergunta == 1:
-    print ('\033[1;30;43m sua cor preferida', 'é' ,'Amarelo 😍\033[m')
+    print ('\033[1;30;43m sua cor preferida', 'é' ,'Amarelo\033[m')
     print ('Fim!')
 if pergunta == 2:
     print ('\033[1;30;42m sua cor preferida', 'é' , 'Verde' ' '  'a cor da esperança\033[m')
